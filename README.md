@@ -1,5 +1,7 @@
 # cc-jsonl
 
+[![CI](https://github.com/yansircc/cc-jsonl/actions/workflows/ci.yml/badge.svg)](https://github.com/yansircc/cc-jsonl/actions/workflows/ci.yml)
+
 Claude Code 对话记录搜索工具。
 
 ```
