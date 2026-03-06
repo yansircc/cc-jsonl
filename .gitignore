@@ -1,0 +1,6 @@
+# 构建产物
+cc-jsonl
+backend/ui/dist/
+
+# OS
+.DS_Store
