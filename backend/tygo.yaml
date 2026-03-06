@@ -1,0 +1,5 @@
+packages:
+  - path: "cc-jsonl/model"
+    output_path: "../frontend/src/lib/types.gen.ts"
+    type_mappings:
+      time.Time: "string"
