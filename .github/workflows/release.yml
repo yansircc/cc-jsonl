@@ -46,8 +46,8 @@ jobs:
 
       - name: Copy frontend to embed dir
         run: |
-          rm -rf backend/ui/dist
-          cp -r frontend/build backend/ui/dist
+          mkdir -p backend/ui/dist
+          cp -r frontend/build/* backend/ui/dist/
 
       - name: Build binary
         working-directory: backend

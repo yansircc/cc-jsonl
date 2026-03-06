@@ -15,8 +15,9 @@ frontend-build:
 
 # 复制前端产物到 Go embed 目录
 copy-ui: frontend-build
-	rm -rf backend/ui/dist
-	cp -r frontend/build backend/ui/dist
+	mkdir -p backend/ui/dist
+	rm -rf backend/ui/dist/*
+	cp -r frontend/build/* backend/ui/dist/
 
 # 构建单二进制
 build: copy-ui
