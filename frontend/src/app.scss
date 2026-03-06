@@ -1,0 +1,47 @@
+// 90 年代 CGI 极简风格
+
+body {
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000;
+  background: #fff;
+  margin: 8px;
+}
+
+a {
+  color: #609;
+  &:visited { color: #609; }
+  &:hover { text-decoration: underline; }
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+  padding: 0;
+}
+
+input {
+  font-family: monospace;
+  font-size: 14px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ccc;
+    background: #111;
+  }
+  a {
+    color: #c9f;
+    &:visited { color: #c9f; }
+  }
+  mark {
+    background: #660;
+    color: #fff;
+  }
+  input {
+    background: #222;
+    color: #ccc;
+    border-color: #555;
+  }
+}
